@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Documents\\CS 3750\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Documents\\CS 3750\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Documents\\CS 3750\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
         "projectName": "TimeTrackerProject",
-        "projectPath": "C:\\Users\\victo\\Documents\\CS 3750\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Documents\\CS 3750\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
