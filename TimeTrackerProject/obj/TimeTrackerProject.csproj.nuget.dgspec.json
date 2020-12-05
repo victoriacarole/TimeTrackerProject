@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
+    "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
+    "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "projectUniqueName": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
         "projectName": "TimeTrackerProject",
-        "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
+        "projectPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "packagesPath": "C:\\Users\\joeys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joeys\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
