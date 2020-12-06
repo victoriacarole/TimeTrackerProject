@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TimeTrackerProject.InMemoryData/1.0.0": {
+        "dependencies": {
+          "TimeTrackerProject.Models": "1.0.0"
+        },
+        "runtime": {
+          "TimeTrackerProject.InMemoryData.dll": {}
+        }
+      },
+      "TimeTrackerProject.Models/1.0.0": {
+        "runtime": {
+          "TimeTrackerProject.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TimeTrackerProject.InMemoryData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TimeTrackerProject.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

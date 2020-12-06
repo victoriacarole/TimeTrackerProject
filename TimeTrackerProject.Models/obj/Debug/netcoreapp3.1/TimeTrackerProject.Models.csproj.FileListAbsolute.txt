@@ -1,0 +1,8 @@
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.deps.json
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfoInputs.cache
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfo.cs
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb

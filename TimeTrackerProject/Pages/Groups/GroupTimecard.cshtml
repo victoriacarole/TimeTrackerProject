@@ -1,0 +1,16 @@
+﻿@page "{groupId:int}"
+
+@model TimeTrackerProject.Pages.GroupTimecardModel
+@{
+    ViewData["Title"] = "Group TimeCard";
+}
+
+<h2>@Model.Group.Name</h2>
+<div>
+    Id: @Model.Group.Id
+</div>
+<div>
+    Total Hours: @Model.Group.TotalHours
+</div>
+
+<a asp-page="./Groups" class="btn btn-primary"> All Groups</a>

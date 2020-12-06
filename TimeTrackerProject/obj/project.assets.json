@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "TimeTrackerProject.InMemoryData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TimeTrackerProject.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TimeTrackerProject.InMemoryData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimeTrackerProject.InMemoryData.dll": {}
+        }
+      },
+      "TimeTrackerProject.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TimeTrackerProject.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimeTrackerProject.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TimeTrackerProject.InMemoryData/1.0.0": {
+      "type": "project",
+      "path": "../TimeTrackerProject.InMemoryData/TimeTrackerProject.InMemoryData.csproj",
+      "msbuildProject": "../TimeTrackerProject.InMemoryData/TimeTrackerProject.InMemoryData.csproj"
+    },
+    "TimeTrackerProject.Models/1.0.0": {
+      "type": "project",
+      "path": "../TimeTrackerProject.Models/TimeTrackerProject.Models.csproj",
+      "msbuildProject": "../TimeTrackerProject.Models/TimeTrackerProject.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "TimeTrackerProject.InMemoryData >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joeys\\.nuget\\packages\\": {}
@@ -32,7 +69,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
+              "projectPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

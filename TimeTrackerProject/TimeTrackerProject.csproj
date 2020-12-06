@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimeTrackerProject.InMemoryData\TimeTrackerProject.InMemoryData.csproj" />
+  </ItemGroup>
+
 </Project>

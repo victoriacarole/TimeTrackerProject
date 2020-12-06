@@ -1,0 +1,24 @@
+﻿@page
+@model TimeTrackerProject.Pages.GroupsModel
+@{
+}
+
+
+<h1>Groups</h1>
+
+<table class="table">
+    @foreach(var group in Model.Groups)
+    {
+        <tr>
+            <td>@group.Name</td>
+            <td>@group.TotalHours</td>
+            <td>
+                <a class="btn btn-primary"
+                   asp-page="./GroupTimeCard"
+                   asp-route-groupId="@group.Id">
+                    <i class="fas fa-plus"></i>&nbsp;Join Group
+                </a>
+            </td>
+        </tr>
+    }
+</table>
