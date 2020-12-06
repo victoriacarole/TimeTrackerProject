@@ -8,6 +8,14 @@
     <input type="text" id="gname" name="gname"><br>
 </form>
 <br /><br />
-<form action="/Groups">
-    <input type="submit" value="Create Group" />
-</form>
+
+<a asp-page="./Groups" class="btn btn-primary"> All Groups</a> <a onclick="goBack()" class="btn btn-primary">Cancel</a>
+
+
+<script>
+
+    function goBack() {
+        window.history.back();
+    }
+
+</script>

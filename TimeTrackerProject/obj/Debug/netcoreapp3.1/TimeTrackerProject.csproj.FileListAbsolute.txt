@@ -60,9 +60,6 @@ C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreap
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.TagHelpers.input.cache
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.TagHelpers.output.cache
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.RazorCoreGenerate.cache
-C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\CreateGroup.cshtml.g.cs
-C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups.cshtml.g.cs
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
@@ -81,7 +78,6 @@ C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreap
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.genruntimeconfig.cache
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.csproj.CopyComplete
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\AddTimecard.cshtml.g.cs
-C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\GroupTimecard.cshtml.g.cs
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -129,3 +125,11 @@ C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netc
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.pdb
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups\NotFound.cshtml.g.cs
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.dll
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.pdb
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups\CreateGroup.cshtml.g.cs
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups\Groups.cshtml.g.cs
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups\GroupTimecard.cshtml.g.cs
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\Razor\Pages\Groups\NotFound.cshtml.g.cs
