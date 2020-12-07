@@ -1,13 +1,21 @@
-﻿@page
+﻿@page 
 @model TimeTrackerProject.Pages.CreateGroupModel
 @{
 }
 
-<form>
-    <label for="fname">Group Name:</label><br>
-    <input type="text" id="gname" name="gname"><br>
+<h2>Creating New Group</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Group.Name"></label>
+        <input asp-for="Group.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Group.Name"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
 </form>
-<br /><br />
+<br />
+<br />
 
 <a asp-page="./Groups" class="btn btn-primary"> All Groups</a> <a onclick="goBack()" class="btn btn-primary">Cancel</a>
 

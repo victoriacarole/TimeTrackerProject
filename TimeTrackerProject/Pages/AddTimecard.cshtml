@@ -4,27 +4,75 @@
 }
 
 
-<form>
-    <label for="fname">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="fname">Time In:</label><br>
-    <input type="text" id="timein" name="timein"><br>
-    <label for="fname">Time Out:</label><br>
-    <input type="text" id="timeout" name="timeout"><br>
-    <label for="fname">Comment:</label><br>
-    <input type="text" id="comment" name="comment"><br>
+<form method="post">
+    <div class="row my-1">
+        <div class="col-3">
+            <label>Username:</label>
+        </div>
+        <div class="col-9">
+            <input id="txtName" type="text" class="form-control" />
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-3">
+            <label>Time In:</label>
+        </div>
+        <div class="col-9">
+            <input id="timein" value="" type="text" class="form-control " />
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-3">
+            <label>Time Out:</label>
+        </div>
+        <div class="col-9">
+            <input id="timeout" value="" type="text" class="form-control" />
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-3">
+            <label>Comments:</label>
+        </div>
+        <div class="col-9">
+            <textarea style="height:100px;" class="form-control"></textarea>
+        </div>
+    </div>
 </form>
 <br />
 <br />
 
 @*Placeholder buttons -- "Add Time" button needs to send form*@
-<a onclick="goBack()" class="btn btn-primary">Add Time</a> <a onclick="goBack()" class="btn btn-primary">Cancel</a>
+
+<button type="submit" id="btnAddTime" onclick="return validateInput()" value="Add Time" class="btn btn-primary">Add Time</button>
+<a onclick="goBack()" class="btn btn-primary">Cancel</a>
+@section Scripts{
+    <script>
+
+        function goBack() {
+            window.history.back();
+        }
 
 
-<script>
+        $(function () {
+            $("#timein").timepicker({ 'minTime': '1:00 AM', 'maxTime': '12:00 PM', step: '30' });
+            $("#timeout").timepicker({ 'minTime': '1:00 AM', 'maxTime': '12:00 PM', step: '30' });
+        });
 
-    function goBack() {
-      window.history.back();
-    }
+        function validateInput() {
+            var timeIn = document.getElementById("timein").value;
+            var timeOut = document.getElementById("timeout").value;
 
-</script>
+
+            if (time.toString() == '') {
+                swal("Error", "Please select Start Time", "error");
+                return false;
+            }
+            if (name.toString() == '') {
+                swal("Error", "Please select End Time", "error");
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+}

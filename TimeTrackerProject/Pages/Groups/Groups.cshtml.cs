@@ -14,7 +14,7 @@ namespace TimeTrackerProject.Pages
     {
         private readonly IConfiguration config;
         private readonly IGroupData groupData;
-
+        [TempData]
         public string Message { get; set; }
         public IEnumerable<Group> Groups { get; set; }
 

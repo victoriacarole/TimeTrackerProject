@@ -5,6 +5,10 @@
 
 
 <h1>Groups</h1>
+@if(Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
 
 <table class="table">
     @foreach(var group in Model.Groups)

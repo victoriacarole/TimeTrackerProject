@@ -10,6 +10,8 @@ namespace TimeTrackerProject.InMemoryData
     {
         IEnumerable<Group> GetAll();
         Group GetById(int id);
+        Group Add(Group NewGroup);
+        int Commit();
     }
 
     public class InMemoryGroupData : IGroupData
@@ -26,6 +28,18 @@ namespace TimeTrackerProject.InMemoryData
                 new Group {Id = 4, Name = "Peacekeepers ", TotalHours = "50" }
 
             };
+        }
+
+        public Group Add(Group NewGroup)
+        {
+            groups.Add(NewGroup);
+            NewGroup.Id = groups.Max(g => g.Id) + 1;
+            return NewGroup;
+        }
+
+        public int Commit()
+        {
+            return 0;
         }
 
         public IEnumerable<Group> GetAll()
