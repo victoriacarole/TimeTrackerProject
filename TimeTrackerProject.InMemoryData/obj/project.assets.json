@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+      "projectUniqueName": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
       "projectName": "TimeTrackerProject.InMemoryData",
-      "projectPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+      "projectPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
       "packagesPath": "C:\\Users\\joeys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
+      "outputPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joeys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
-              "projectPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
+            "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
+              "projectPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
             }
           }
         }

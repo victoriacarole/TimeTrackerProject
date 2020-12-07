@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZj+0iBKBnKDgf5NdslQjmfYt/u14VDhvdbr4hKL5BM0e+vIyDGRsylCJf9YsltWXm8GKxO7DDkVxxD2tezwVQ==",
+  "dgSpecHash": "800rK7O8eenRW6wbYlY7PNMl8olq1J2WipPiIDIcX/kdchEwIT3x0V7lspJly1m2FjIf2LXn2615jKF4cOpW5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+  "projectFilePath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
