@@ -16,9 +16,15 @@
 </form>
 <br />
 <br />
-<form action="/GroupTimecard">
-    <input type="submit" value="Add Timecard" />
-</form>
-<form action="/GroupTimecard">
-    <input type="submit" value="Cancel" />
-</form>
+
+@*Placeholder buttons -- "Add Time" button needs to send form*@
+<a onclick="goBack()" class="btn btn-primary">Add Time</a> <a onclick="goBack()" class="btn btn-primary">Cancel</a>
+
+
+<script>
+
+    function goBack() {
+      window.history.back();
+    }
+
+</script>
