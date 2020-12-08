@@ -4,27 +4,98 @@
 }
 
 
-<h1>Groups</h1>
-@if(Model.Message != null)
-{
-    <div class="alert alert-info">@Model.Message</div>
-}
 
-<table class="table">
-    @foreach(var group in Model.Groups)
+<div class="pageContents">
+    <a asp-page="./CreateGroup" class="btn btn-primary" style="float: right;margin-bottom:5px;">Create New Group</a>
+
+    @if (Model.Message != null)
     {
-        <tr>
-            <td>@group.Name</td>
-            <td>@group.TotalHours</td>
-            <td>
-                <a class="btn btn-primary"
-                   asp-page="./GroupTimeCard"
-                   asp-route-groupId="@group.Id">
-                    <i class="fas fa-plus"></i>&nbsp;Join Group
-                </a>
-            </td>
-        </tr>
+        <div class="alert alert-info">@Model.Message</div>
     }
-</table>
 
-<a asp-page="./CreateGroup" class="btn btn-primary">Create New Group</a>
+    <table class="table">
+        <tr>
+            <td><h1>Groups</h1></td>
+        </tr>
+        <tr class="headerRow">
+            <td>Team Name</td>
+            <td>Total Hours</td>
+            <td></td>
+        </tr>
+        @foreach (var group in Model.Groups)
+        {
+            <tr>
+                <td>@group.Name</td>
+                <td>@group.TotalHours</td>
+                <td>
+                    <a class="btn btn-primary"
+                        asp-page="./GroupTimeCard"
+                        asp-route-groupId="@group.Id">
+                        <i class="fas fa-plus"></i>&nbsp;Join Group
+                    </a>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <a asp-page="./CreateGroup" class="btn btn-primary" style="float:right;margin-top:5px;">Create New Group</a>
+
+ </div>
+
+
+@* CSS *@
+<style>
+
+    header {
+        background: white;
+    }
+
+    footer {
+        background: black;
+        opacity: .7;
+    }
+
+    body {
+        /* background-color: #492365; */
+        background-image: url('../images/4703133.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    .pageContents {
+        margin-top: 75px;
+    }
+
+    .table {
+        background-color: white;
+        margin: 0px;
+    }
+
+    .headerRow {
+        font-weight: bold;
+    }
+
+    .btn {
+        background-color: #009844;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+    }
+
+    .btn:hover {
+        background-color: #00C957;
+        border-style: none;
+    }
+
+    .btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+</style>

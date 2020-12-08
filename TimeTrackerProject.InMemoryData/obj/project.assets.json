@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joeys\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
       "projectName": "TimeTrackerProject.InMemoryData",
-      "projectPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
-      "packagesPath": "C:\\Users\\joeys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
+      "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joeys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
-              "projectPath": "C:\\Users\\joeys\\source\\repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
+            "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
+              "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
             }
           }
         }
