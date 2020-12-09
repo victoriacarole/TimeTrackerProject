@@ -12,15 +12,24 @@ namespace TimeTrackerProject.Pages
     public class GroupTimecardModel : PageModel
     {
         private readonly IGroupData groupData;
+        private readonly ITimeCardData timeCardData;
+
         public Group Group { get; set; }
-        public GroupTimecardModel(IGroupData groupData)
+        public IEnumerable<User> Users { get; set; }
+        public IEnumerable<UserTime> UserTimes { get; set; }
+
+        public GroupTimecardModel(IGroupData groupData, ITimeCardData timeCardData)
         {
             this.groupData = groupData;
+            this.timeCardData = timeCardData;
+
         }
         public IActionResult OnGet(int groupId)
         {
             Group = groupData.GetById(groupId);
-            if(Group == null)
+            UserTimes = timeCardData.GetAllByGroupId(groupId);
+
+            if (Group == null)
             {
                 return RedirectToPage("./NotFound");
             }

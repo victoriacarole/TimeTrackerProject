@@ -13,6 +13,41 @@
     Total Hours: @Model.Group.TotalHours
 </div>
 
+<table class="table">
+    <tr class="headerRow">
+        <td>TimeCard Id</td>
+        <td>Start Time</td>
+        <td>End Time</td>
+        <td>Work Comments</td>
+        <td>Total Hours</td>
+        <td>Group Id</td>
+        <td>User Id</td>
+
+        <td></td>
+    </tr>
+    @foreach (var timeCard in Model.UserTimes)
+    {
+        <tr>
+            <td>@timeCard.Id</td>
+            <td>@timeCard.StartTime</td>
+            <td>@timeCard.StopTime</td>
+            <td>@timeCard.WorkComments</td>
+            <td>@timeCard.TotalHours</td>
+            <td>@timeCard.Group.Id</td>
+            <td>@timeCard.User.Id</td>
+        </tr>
+    }
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+
+
+
 <a asp-page="../AddTimecard" class="btn btn-primary">Add Time</a> <a asp-page="./Groups" class="btn btn-primary"> All Groups</a>
 
 

@@ -31,6 +31,8 @@ namespace TimeTrackerProject
              **********************************
              */
             services.AddSingleton<IGroupData,InMemoryGroupData>();
+            services.AddSingleton<IUserData, InMemoryUserData>();
+            services.AddSingleton<ITimeCardData, InMemoryTimeCardData>();
 
             services.AddRazorPages();
         }
