@@ -53,7 +53,8 @@ namespace TimeTrackerProject.Pages
         /// <returns></returns>
         public IActionResult OnPostTwo()
         {
-            newUser.Password = Request.Form["hashed"].ToString();
+            //newUser.Password = Request.Form["hashed"].ToString();
+            newUser.Password = "asdasffasffwefwefwef";
             newUser.Name = Request.Form["uName"].ToString();
             newUser.UniqueSalt = Request.Form["uSalt"].ToString();
             var uType = Request.Form["uType"].ToString();
@@ -65,7 +66,7 @@ namespace TimeTrackerProject.Pages
             UserStatus.registered = true;
             UserStatus.loggedIn = true;
 
-            return RedirectToPage("/Game");
+            return RedirectToPage("/Index");
         }
 
         /// <summary>
