@@ -5,15 +5,13 @@
     ViewData["Title"] = "Group TimeCard";
 }
 
-<h2>@Model.Group.Name</h2>
-<div>
-    Id: @Model.Group.Id
-</div>
-<div>
-    Total Hours: @Model.Group.TotalHours
-</div>
+
+<a asp-page="../AddTimecard" class="btn btn-primary" style="float:right;margin:0px 5px 5px 0px;">Add Time</a> <a asp-page="./Groups" class="btn btn-primary" style="float:right;margin: 0px 5px 0px 0px;"> All Groups</a>
 
 <table class="table">
+    <tr>
+        <td><h1>@Model.Group.Name</h1></td>
+    </tr>
     <tr class="headerRow">
         <td>TimeCard Id</td>
         <td>Start Time</td>
@@ -22,8 +20,6 @@
         <td>Total Hours</td>
         <td>Group Id</td>
         <td>User Id</td>
-
-        <td></td>
     </tr>
     @foreach (var timeCard in Model.UserTimes)
     {
@@ -41,13 +37,70 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="headerRow">
+        <td>Id: @Model.Group.Id</td>
+        <td>Total Hours: @Model.Group.TotalHours</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 </table>
 
+<a asp-page="../AddTimecard" class="btn btn-primary" style="float:right;margin:0px 5px 5px 0px;">Add Time</a> <a asp-page="./Groups" class="btn btn-primary" style="float:right;margin: 0px 5px 0px 0px;"> All Groups</a>
 
 
+@* CSS *@
+<style>
 
+    header {
+        background: white;
+    }
 
-<a asp-page="../AddTimecard" class="btn btn-primary">Add Time</a> <a asp-page="./Groups" class="btn btn-primary"> All Groups</a>
+    footer {
+        display: none;
+    }
 
+    body {
+        background-color: #492365;
+        background-image: url('../images/4703133.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
 
+    .table {
+        background-color: white;
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .headerRow {
+        font-weight: bold;
+    }
+
+    .btn {
+        background-color: #009844;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+    }
+
+        .btn:hover {
+            background-color: #00C957;
+            border-style: none;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+</style>
