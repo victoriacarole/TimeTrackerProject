@@ -3,29 +3,99 @@
 @{
 }
 
-<form id="account" method="post">
-    <h4>Use a local account to log in.</h4>
-    <hr />
-    <div class="text-danger"></div>
-    <div class="form-group">
-        <label for="UserName">User Name</label>
-        <input id="UserName" name="UserName" class="form-control" value="" />
-        <span for="UserName" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label for="Password">Password</label>
-        <input id="Password" type="password" name="Password" class="form-control" value="" />
-        <span for="Password" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary">Log in</button>
-    </div>
-    <div class="form-group">
-        <p>
-            <a asp-page="/Register">Register as a new user</a>
-        </p>
-    </div>
-</form>
+@{
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js" integrity="sha512-szJ5FSo9hEmXXe7b5AUVtn/WnL8a5VofnFeYC2i2z03uS2LhAch7ewNLbl5flsEmTTimMN0enBZg/3sQ+YOSzQ==" crossorigin="anonymous"></script>
 
-<br /><br />
-      <a class="alert-link" asp-page="/Groups/Groups">Jump to Groups Page</a>
+    <form id="account" method="post">
+        <h4>Use a local account to log in.</h4>
+        <hr />
+        <div class="text-danger"></div>
+        <div class="form-group">
+            <label for="UserName">User Name</label>
+            <input id="UserName" name="UserName" class="form-control" value="" />
+            <span for="UserName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input id="Password" type="password" name="Password" class="form-control" value="" />
+            <span for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Log in</button>
+        </div>
+        <div class="form-group">
+            <p>
+                <a asp-page="/Register">Register as a new user</a>
+            </p>
+        </div>
+    </form>
+    <div>
+        <form id="form2" asp-page-handler="two" method="post">
+            <input id="hashed" name="hashed" type="hidden" />
+            <input id="uSalt" name="uSalt" type="hidden" />
+            <input id="uName" name="uName" type="hidden" />
+            <input id="uType" name="uType" type="hidden" />
+        </form>
+    </div>
+
+    <br />
+    <br />
+    <a class="alert-link" asp-page="/Groups/Groups">Jump to Groups Page</a>
+
+    <script type="text/javascript">
+
+        function getSalt(){
+
+            $.ajax({
+                type: 'POST',
+                url: '/Register?handler=salt',
+                data: $('#reg').serialize(),
+                success: function (data) {
+
+                    var uName = document.getElementById('UserName').value;
+
+                    $('#uName').val(uName);
+                },
+            //After AJAX is done, it runs again to get salt from database
+            }).done(function () {
+                var uSalt = "@UserStatus.UserSalt";
+            });
+
+             @*$.ajax({
+                    type: 'POST',
+                    url: '/Register?handler=hash',
+                    data: $('#reg').serialize(),
+                    success: function (data) {
+
+                        var uPass = document.getElementById('Password').value;
+                        var uHashed = hash(uSalt, uPass);
+
+                        $('#hashed').val(uHashed);
+                        $('#uSalt').val("@UserStatus.UserSalt");
+                    },
+                    //After AJAX is done, it submits hidden form2 to the server with all data
+                    //needed to store in database
+                }).done(function () {
+                    $('#form2').submit();
+                });*@
+
+            return false;
+        }
+
+    //This function takes the salt generated in the server,
+    //appends to users password and generates a hashed password.
+    function hash(salt, password) {
+
+        var toBeHashed = salt + password;
+        var hash = sha256.create();
+        hash.update(toBeHashed);
+        hash.hex();
+
+        return hash;
+    }
+
+    </script>
+
+}

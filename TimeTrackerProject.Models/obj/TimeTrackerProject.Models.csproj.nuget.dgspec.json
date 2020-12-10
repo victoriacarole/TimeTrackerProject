@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Fall_2020\\CS_3750\\Final\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {}
+    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {}
   },
   "projects": {
-    "G:\\Fall_2020\\CS_3750\\Final\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
+    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Fall_2020\\CS_3750\\Final\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
         "projectName": "TimeTrackerProject.Models",
-        "projectPath": "G:\\Fall_2020\\CS_3750\\Final\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
-        "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "G:\\Fall_2020\\CS_3750\\Final\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
+        "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+        "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\brett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
