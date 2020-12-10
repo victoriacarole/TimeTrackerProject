@@ -4,36 +4,63 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Time Tracker</h1>
-    <p><a class="alert-link" asp-page="/Login">Login</a> or <a class="alert-link" asp-page="/Register">Register as a new user</a></p>
+<div class="indexPage">
+    <div class="text-center">
+        <h1 class="display-4">Time Tracker</h1>
+        <p><a class="alert-link" asp-page="/Login">Login</a> or <a class="alert-link" asp-page="/Register">Register as a new user</a></p>
+    </div>
 </div>
 
 
-@*
-    
-DATABASES:
-Group
-    GroupID
-    GroupName
+@* CSS *@
+<style>
 
-User
-    UserID
-    UserName
-    UserType
-    Password
-    UniqueSalt
-    UserTotHours
+    header {
+        background: white;
+    }
 
-UserGroup
-    GroupID
-    UserID
-    GroupTotHours
+    footer {
+        background: black;
+        opacity: .7;
+    }
 
-UserTime
-    UserID
-    GroupID
-    StartTime
-    StopTime
-    Text
-    TotHours*@
+    body {
+        /* background-color: #492365; */
+        background-image: url('../images/4703133.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    /* Specific to page */
+    .indexPage {
+        /* center on page */
+        margin: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /* other adjustments */
+        padding: 30px;
+        background-color: white;
+    }
+
+    .btn {
+        background-color: #009844;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+    }
+
+        .btn:hover {
+            background-color: #00C957;
+            border-style: none;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+</style>

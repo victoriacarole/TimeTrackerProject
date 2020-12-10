@@ -488,23 +488,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ianbr\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
       "projectName": "TimeTrackerProject",
-      "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
-      "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
+      "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -517,8 +513,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
-              "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj"
+            "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
+              "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj"
             }
           }
         }
@@ -555,7 +551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

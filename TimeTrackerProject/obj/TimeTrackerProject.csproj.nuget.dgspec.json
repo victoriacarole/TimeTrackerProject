@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
         "projectName": "TimeTrackerProject.InMemoryData",
-        "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
-        "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
+        "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
-                "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
+              "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
+                "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj"
               }
             }
           }
@@ -59,24 +56,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
         "projectName": "TimeTrackerProject.Models",
-        "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
-        "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
+        "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,24 +108,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
+    "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
         "projectName": "TimeTrackerProject",
-        "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
-        "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
+        "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\TimeTrackerProject.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,8 +135,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
-                "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj"
+              "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj": {
+                "projectPath": "C:\\Users\\victo\\Desktop\\TimeTrackerProject\\TimeTrackerProject.InMemoryData\\TimeTrackerProject.InMemoryData.csproj"
               }
             }
           }
@@ -182,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
