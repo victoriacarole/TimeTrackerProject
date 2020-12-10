@@ -190,3 +190,11 @@ C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreap
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.csproj.CoreCompileInputs.cache
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.MvcApplicationPartsAssemblyInfo.cache

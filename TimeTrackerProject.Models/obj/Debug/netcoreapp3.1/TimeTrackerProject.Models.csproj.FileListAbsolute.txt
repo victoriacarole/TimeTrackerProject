@@ -15,3 +15,12 @@ C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Deb
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csproj.CoreCompileInputs.cache
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.deps.json
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csprojAssemblyReference.cache
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfoInputs.cache
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfo.cs
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csproj.CoreCompileInputs.cache
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+G:\Fall_2020\CS_3750\Final\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
