@@ -10,6 +10,8 @@ namespace TimeTrackerProject.Pages
     public class RegisterModel : PageModel
     {
 
+        private SQLManager sql = new SQLManager();
+
         public static Models.User newUser = new Models.User();
 
         public string Salt => (string)TempData[nameof(Salt)];
@@ -54,12 +56,11 @@ namespace TimeTrackerProject.Pages
             newUser.Password = Request.Form["hashed"].ToString();
             newUser.Name = Request.Form["uName"].ToString();
             newUser.UniqueSalt = Request.Form["uSalt"].ToString();
-            Models.UserType type = new Models.UserType();
-            var Utype = Request.Form["uType"].ToString();
-            Utype = gson.toJson(type);
+            var uType = Request.Form["uType"].ToString();
+
 
             //Call function to input hashed password, username, and user salt into database
-            //insertUser();
+            sql.NewUser(newUser.Name, newUser.Password, newUser.UniqueSalt, uType);
 
             UserStatus.registered = true;
             UserStatus.loggedIn = true;
