@@ -57,6 +57,7 @@
             <input id="hashed" name="hashed" type="hidden" />
             <input id="uSalt" name="uSalt" type="hidden" />
             <input id="uName" name="uName" type="hidden" />
+            <input id="uType" name="uType" type="hidden" />
         </form>
     </div>
 </div>
@@ -78,11 +79,13 @@
                 var uSalt = "@UserStatus.UserSalt";
                 var uHashed = hash(uSalt, uPwd);
                 var uName = document.getElementById('UserName').value;
+                var uType = document.getElementById('userType').value;
 
                 //Adds correct data to hidden form2 inputs: username, hashed and uSalt
                 $('#hashed').val(uHashed);
                 $('#uSalt').val("@UserStatus.UserSalt");
                 $('#uName').val(uName);
+                $('#uType').val(uType);
             },
         //After AJAX is done, it submits hidden form2 to the server with all data
         //needed to store in database

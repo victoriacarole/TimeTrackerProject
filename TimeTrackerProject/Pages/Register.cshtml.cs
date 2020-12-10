@@ -54,6 +54,9 @@ namespace TimeTrackerProject.Pages
             newUser.Password = Request.Form["hashed"].ToString();
             newUser.Name = Request.Form["uName"].ToString();
             newUser.UniqueSalt = Request.Form["uSalt"].ToString();
+            Models.UserType type = new Models.UserType();
+            var Utype = Request.Form["uType"].ToString();
+            Utype = gson.toJson(type);
 
             //Call function to input hashed password, username, and user salt into database
             //insertUser();
