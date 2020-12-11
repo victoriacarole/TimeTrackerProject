@@ -10,6 +10,14 @@ namespace TimeTrackerProject
     {
         private string sSQL;
         DataAccess data = new DataAccess();
+        /// <summary>
+        /// Create new user in the database
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="hashedPassword"></param>
+        /// <param name="salt"></param>
+        /// <param name="userType"></param>
+        /// <returns></returns>
         public int NewUser(string username, string hashedPassword, string salt, string userType)
         {
             sSQL = "INSERT INTO dbUser(username, userPassword, uniqueSalt, userType, userTotalHours, userGroup)" +
@@ -17,6 +25,11 @@ namespace TimeTrackerProject
             return data.ExecuteNonQuery(sSQL);
         }
 
+        /// <summary>
+        /// Create new group in the database
+        /// </summary>
+        /// <param name="groupName"></param>
+        /// <returns></returns>
         public int NewGroup(string groupName)
         {
             sSQL = "INSERT INTO dbGroup(groupName, GroupTotalHours)" +
@@ -24,6 +37,16 @@ namespace TimeTrackerProject
             return data.ExecuteNonQuery(sSQL);
         }
 
+        /// <summary>
+        /// Create new usertime in database
+        /// </summary>
+        /// <param name="userID"></param>
+        /// <param name="groupID"></param>
+        /// <param name="start"></param>
+        /// <param name="end"></param>
+        /// <param name="userNote"></param>
+        /// <param name="userTotalHours"></param>
+        /// <returns></returns>
         public int NewUserTime(int userID, int groupID, DateTime start, DateTime end, string userNote, int userTotalHours)
         {
             sSQL = "INSERT INTO dbUserTime(userID, groupID, startTime, stopTime, userNote, userTotalHours)" +
@@ -31,18 +54,34 @@ namespace TimeTrackerProject
             return data.ExecuteNonQuery(sSQL);
         }
 
+        /// <summary>
+        /// Update a User's hours on project
+        /// </summary>
+        /// <param name="userID"></param>
+        /// <param name="hours"></param>
+        /// <returns></returns>
         public int UpdateUserHours(int userID, int hours)
         {
             sSQL = "UPDATE dbUser SET userTotalHours = " + hours + " WHERE userID = " + userID;
             return data.ExecuteNonQuery(sSQL);
         }
 
+        /// <summary>
+        /// Update a Groups total hours
+        /// </summary>
+        /// <param name="groupID"></param>
+        /// <param name="hours"></param>
+        /// <returns></returns>
         public int UpdateGroupHours(int groupID, int hours)
         {
             sSQL = "UPDATE dbGroup SET GroupTotalHours = " + hours + " WHERE groupID = " + groupID;
             return data.ExecuteNonQuery(sSQL);
         }
 
+        /// <summary>
+        /// Get all Timecards Ordered by userID
+        /// </summary>
+        /// <returns>List<clsUserTime></returns>
         public List<clsUserTime> GetAllTimes()
         {
             DataSet AllUserTimes;
@@ -64,6 +103,10 @@ namespace TimeTrackerProject
             return Times;
         }
 
+        /// <summary>
+        /// Gets all Groups 
+        /// </summary>
+        /// <returns>List<clsGroup></returns>
         public List<clsGroup> GetGroups()
         {
             DataSet AllGroups;
@@ -82,18 +125,33 @@ namespace TimeTrackerProject
             return Groups;
         }
 
+        /// <summary>
+        /// Get Salt from database
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
         public string Validate(string username)
        {
             sSQL = "SELECT uniqueSalt FROM dbUser WHERE username = '" + username + "'";
             return data.ExecuteScalarSQL(sSQL);
        }
 
+        /// <summary>
+        /// Get hashed password from database
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
         public string getHashed(string username)
         {
             sSQL = "SELECT userPassword FROM dbUser WHERE username = '" + username + "'";
             return data.ExecuteScalarSQL(sSQL);
         }
 
+        /// <summary>
+        /// Get userID from database
+        /// </summary>
+        /// <param name="username"></param>
+        /// <returns></returns>
         public string GetUserID(string username)
         {
             sSQL = "SELECT userID FROM dbUser WHERE username = '" + username + "'";
