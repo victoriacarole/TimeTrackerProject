@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js" integrity="sha512-szJ5FSo9hEmXXe7b5AUVtn/WnL8a5VofnFeYC2i2z03uS2LhAch7ewNLbl5flsEmTTimMN0enBZg/3sQ+YOSzQ==" crossorigin="anonymous"></script>
 
     <div class="login">
-        <form id="account" method="post">
+        <form id="account" method="post" asp-page-handler="salt">
             <h4>Use a local account to log in.</h4>
             <hr />
             <div class="text-danger"></div>
@@ -24,7 +24,7 @@
                 <span for="Password" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Log in</button>
+                <button type="submit" class="btn btn-primary" onclick="getSalt()">Log in</button>
             </div>
             <div class="form-group">
                 <p>
@@ -65,7 +65,7 @@
                 var uHashed = "@UserStatus.UserHashed"
             });
 
-             @*$.ajax({
+             $.ajax({
                     type: 'POST',
                     url: '/Register?handler=hash',
                     data: $('#reg').serialize(),
@@ -81,7 +81,7 @@
                     //needed to store in database
                 }).done(function () {
                     $('#form2').submit();
-                });*@
+                });
 
             return false;
         }
