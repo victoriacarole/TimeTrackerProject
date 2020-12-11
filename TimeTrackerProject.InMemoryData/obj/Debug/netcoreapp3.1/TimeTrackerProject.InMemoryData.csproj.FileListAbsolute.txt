@@ -34,3 +34,15 @@ C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.InMemoryData\o
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.csproj.CopyComplete
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.dll
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.pdb
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.deps.json
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.dll
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\bin\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.pdb
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.csprojAssemblyReference.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.AssemblyInfoInputs.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.AssemblyInfo.cs
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.csproj.CoreCompileInputs.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.csproj.CopyComplete
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.dll
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.InMemoryData\obj\Debug\netcoreapp3.1\TimeTrackerProject.InMemoryData.pdb
