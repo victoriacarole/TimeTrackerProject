@@ -244,6 +244,7 @@ C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject\obj\
 C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.pdb
 C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.genruntimeconfig.cache
 C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\libman.json
@@ -298,4 +299,3 @@ C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\obj\Debug\netc
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.dll
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.pdb
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject\obj\Debug\netcoreapp3.1\TimeTrackerProject.genruntimeconfig.cache
-C:\Users\victo\Desktop\TimeTrackerProject\TimeTrackerProject\bin\Debug\netcoreapp3.1\libman.json

@@ -18,6 +18,13 @@ namespace TimeTrackerProject
         /// <param name="salt"></param>
         /// <param name="userType"></param>
         /// <returns></returns>
+        /// 
+        public string GetPieData(int groupID)
+        {
+            sSQL = "SELECT username, userTotalHours FROM dbUser WHERE userGroup = " + groupID;
+            return data.ExecuteScalarSQL(sSQL);
+        }
+
         public int NewUser(string username, string hashedPassword, string salt, string userType)
         {
             sSQL = "INSERT INTO dbUser(username, userPassword, uniqueSalt, userType, userTotalHours, userGroup)" +

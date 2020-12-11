@@ -14,6 +14,7 @@ namespace TimeTrackerProject.Pages
         public List<clsGroup> Groups { get; set; }
         //public List<> Users { get; set; }
         public string GroupName { get; set; }
+       
 
         public List<clsUserTime> UserTimes { get; set; }
         SQLManager sql = new SQLManager();
