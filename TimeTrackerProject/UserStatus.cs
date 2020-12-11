@@ -25,5 +25,9 @@ namespace TimeTrackerProject
         public static string UserSalt { get; set; }
 
         public static string UserID { get; set; }
+
+        public static string UserHashed { get; set; }
+
+
     }
 }
