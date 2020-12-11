@@ -47,7 +47,7 @@
         <td></td>
         <td></td>
     </tr>
-</table>
+</table>   
 
 <a asp-page="../AddTimecard" class="btn btn-primary" style="float:right;margin:0px 5px 5px 0px;">Add Time</a> <a asp-page="./Groups" class="btn btn-primary" style="float:right;margin: 0px 5px 0px 0px;"> All Groups</a>
 
@@ -64,7 +64,7 @@
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
 
-            ['Task', 'Hours per Day'],
+           ['Task', 'Hours per Day'],
             ['Work', 8],
             ['Friends', 2],
             ['Eat', 2],
@@ -78,7 +78,7 @@
 
         // Display the chart inside the <div> element with id="piechart"
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-        chart.draw(data, options);
+               chart.draw(data, options);
     }
 </script>
 
