@@ -76,6 +76,12 @@ namespace TimeTrackerProject
             return data.ExecuteScalarSQL(sSQL);
        }
 
+        public string getHashed(string username)
+        {
+            sSQL = "SELECT userPassword FROM dbUser WHERE username = '" + username + "'";
+            return data.ExecuteScalarSQL(sSQL);
+        }
+
         public string GetUserID(string username)
         {
             sSQL = "SELECT userID FROM dbUser WHERE username = '" + username + "'";

@@ -24,6 +24,9 @@ namespace TimeTrackerProject.Pages
             newUser.Name = Request.Form["UserName"].ToString();
             UserStatus.currentUser = Request.Form["UserName"].ToString();
 
+            UserStatus.UserSalt = sql.Validate(newUser.Name);
+            UserStatus.UserHashed = sql.getHashed(newUser.Name)
+
             //Call function to see if username is taken, return message verifying status of username
             //checkUsername();
 
