@@ -11,29 +11,28 @@ namespace TimeTrackerProject.Pages
 {
     public class GroupTimecardModel : PageModel
     {
-        private readonly IGroupData groupData;
-        private readonly ITimeCardData timeCardData;
+        public List<clsGroup> Groups { get; set; }
+        //public List<> Users { get; set; }
+        public string GroupName { get; set; }
 
-        public Group Group { get; set; }
-        public IEnumerable<User> Users { get; set; }
-        public IEnumerable<UserTime> UserTimes { get; set; }
+        public List<clsUserTime> UserTimes { get; set; }
+        SQLManager sql = new SQLManager();
 
-        public GroupTimecardModel(IGroupData groupData, ITimeCardData timeCardData)
-        {
-            this.groupData = groupData;
-            this.timeCardData = timeCardData;
-
-        }
 
         public IActionResult OnGet(int groupId)
         {
-            Group = groupData.GetById(groupId);
-            UserTimes = timeCardData.GetAllByGroupId(groupId);
-
-            if (Group == null)
+            Groups = sql.GetGroups();
+            foreach (var group in Groups)
             {
-                return RedirectToPage("./NotFound");
+                if (group.GroupID == groupId)
+                {
+                    GroupName = group.GroupName;
+                }
             }
+
+
+            UserTimes = sql.GetAllTimes(groupId);
+            
             return Page();
         }
     }

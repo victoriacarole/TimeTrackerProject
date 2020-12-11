@@ -2,7 +2,8 @@
 
 @model TimeTrackerProject.Pages.GroupTimecardModel
 @{
-    ViewData["Title"] = "Group TimeCard";
+        ViewData["Title"] = "Group TimeCard";
+
 }
 
 
@@ -10,27 +11,23 @@
 
 <table class="table">
     <tr>
-        <td><h1>@Model.Group.Name</h1></td>
+        <td><h1>@Model.GroupName</h1></td>
     </tr>
     <tr class="headerRow">
-        <td>TimeCard Id</td>
         <td>Start Time</td>
         <td>End Time</td>
         <td>Work Comments</td>
         <td>Total Hours</td>
-        <td>Group Id</td>
         <td>User Id</td>
     </tr>
     @foreach (var timeCard in Model.UserTimes)
     {
         <tr>
-            <td>@timeCard.Id</td>
-            <td>@timeCard.StartTime</td>
-            <td>@timeCard.StopTime</td>
-            <td>@timeCard.WorkComments</td>
-            <td>@timeCard.TotalHours</td>
-            <td>@timeCard.Group.Id</td>
-            <td>@timeCard.User.Id</td>
+            <td>@timeCard.Start</td>
+            <td>@timeCard.Stop</td>
+            <td>@timeCard.Note</td>
+            <td>@timeCard.Hours</td>
+            <td>@timeCard.UserID</td>
         </tr>
     }
     <tr>
@@ -43,8 +40,7 @@
         <td></td>
     </tr>
     <tr class="headerRow">
-        <td>Id: @Model.Group.Id</td>
-        <td>Total Hours: @Model.Group.TotalHours</td>
+        <td>Total Hours: </td>
         <td></td>
         <td></td>
         <td></td>

@@ -82,14 +82,14 @@ namespace TimeTrackerProject
         /// Get all Timecards Ordered by userID
         /// </summary>
         /// <returns>List<clsUserTime></returns>
-        public List<clsUserTime> GetAllTimes()
+        public List<clsUserTime> GetAllTimes(int groupID)
         {
             DataSet AllUserTimes;
             List<clsUserTime> Times = new List<clsUserTime>();
             int iRetVal = 0;
-            string sSQL = "SELECT * FROM dbUserTime ORDER BY userID";
+            string sSQL = "SELECT * FROM dbUserTime WHERE groupID = " + groupID + " ORDER BY userID";
             AllUserTimes = data.ExecuteSQLStatment(sSQL, ref iRetVal);
-            for(int i = 0; i < iRetVal; i++)
+            for (int i = 0; i < iRetVal; i++)
             {
                 clsUserTime time = new clsUserTime();
                 time.UserID = (int)AllUserTimes.Tables[0].Rows[i][0];
@@ -101,6 +101,11 @@ namespace TimeTrackerProject
                 Times.Add(time);
             }
             return Times;
+        }
+        public string GetGroup(int groupID)
+        {
+            sSQL = "SELECT groupName FROM dbGroup WHERE groupID = " + groupID;
+            return data.ExecuteScalarSQL(sSQL);
         }
 
         /// <summary>
