@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TimeTrackerProject.InMemoryData\TimeTrackerProject.InMemoryData.csproj" />
+    <ProjectReference Include="..\TimeTrackerProject.Models\TimeTrackerProject.Models.csproj" />
   </ItemGroup>
 
 </Project>

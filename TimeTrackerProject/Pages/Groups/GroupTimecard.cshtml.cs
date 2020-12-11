@@ -24,6 +24,7 @@ namespace TimeTrackerProject.Pages
             this.timeCardData = timeCardData;
 
         }
+
         public IActionResult OnGet(int groupId)
         {
             Group = groupData.GetById(groupId);

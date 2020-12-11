@@ -11,23 +11,16 @@ namespace TimeTrackerProject.Pages
 {
     public class CreateGroupModel : PageModel
     {
-        private readonly IGroupData groupData;
-        [BindProperty]
-        public Group Group { get; set; }
-        public CreateGroupModel(IGroupData groupData)
-        {
-            this.groupData = groupData;
-        }
+        //private readonly IGroupData groupData;
+        //[BindProperty]
+        public Group Group = new Group();
+
+        SQLManager sql = new SQLManager();
+
         public IActionResult OnGet(int? groupId)
         {
-            if(groupId.HasValue)
-            {
-                Group = groupData.GetById(groupId.Value);
-            }
-            else
-            {
-                Group = new Group();
-            }
+            Group = new Group();
+            
             if(Group == null)
             {
                 return RedirectToPage(".NotFound");
@@ -39,8 +32,7 @@ namespace TimeTrackerProject.Pages
         {
             if (ModelState.IsValid)
             {
-                groupData.Add(Group);
-                groupData.Commit();
+                sql.NewGroup(Request.Form["GroupName"].ToString());
                 TempData["Message"] = "Group Created!";
                 return RedirectToPage("./Groups");
             }

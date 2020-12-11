@@ -12,20 +12,16 @@ namespace TimeTrackerProject.Pages
 {
     public class GroupsModel : PageModel
     {
-        private readonly IConfiguration config;
-        private readonly IGroupData groupData;
+
+        SQLManager sql = new SQLManager();
+
         [TempData]
         public string Message { get; set; }
-        public IEnumerable<Group> Groups { get; set; }
+        public List<clsGroup> Groups = new List<clsGroup>();
 
-        public GroupsModel(IConfiguration config, IGroupData groupData)
-        {
-            this.config = config;
-            this.groupData = groupData;
-        }
         public void OnGet()
         {
-            Groups = groupData.GetAll();
+            Groups = sql.GetGroups();
         }
     }
 }

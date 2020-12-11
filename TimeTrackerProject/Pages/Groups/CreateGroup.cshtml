@@ -10,7 +10,7 @@
     <form method="post">
         <div class="form-group">
             <label asp-for="Group.Name"></label>
-            <input asp-for="Group.Name" class="form-control" />
+            <input name="GroupName" id="GroupName" asp-for="Group.Name" class="form-control" />
             <span class="text-danger" asp-validation-for="Group.Name"></span>
         </div>
 
