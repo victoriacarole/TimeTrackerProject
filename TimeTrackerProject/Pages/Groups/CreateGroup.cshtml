@@ -1,24 +1,23 @@
-﻿@page 
+﻿@page
+
 @model TimeTrackerProject.Pages.CreateGroupModel
 @{
 }
 
-<h2>Creating New Group</h2>
+<div class="createGroup">
+    <h1>Create New Group</h1>
 
-<form method="post">
-    <div class="form-group">
-        <label asp-for="Group.Name"></label>
-        <input asp-for="Group.Name" class="form-control" />
-        <span class="text-danger" asp-validation-for="Group.Name"></span>
-    </div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Group.Name"></label>
+            <input asp-for="Group.Name" class="form-control" />
+            <span class="text-danger" asp-validation-for="Group.Name"></span>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Save</button>
-</form>
-<br />
-<br />
-
-<a asp-page="./Groups" class="btn btn-primary"> All Groups</a> <a onclick="goBack()" class="btn btn-primary">Cancel</a>
-
+        <button type="submit" class="btn btn-primary">Save</button><a onclick="goBack()" class="btn btn-primary" style="color:white;">Cancel</a>
+    
+    </form>
+</div>
 
 <script>
 
@@ -27,3 +26,57 @@
     }
 
 </script>
+
+@* CSS *@
+<style>
+
+    header {
+        background: white;
+    }
+
+    footer {
+        background: black;
+        opacity: .7;
+    }
+
+    body {
+        /* background-color: #492365; */
+        background-image: url('../images/4703133.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    /* Specific to page */
+    .createGroup {
+        /* center on page */
+        margin: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /* other adjustments */
+        padding: 30px;
+        background-color: white;
+    }
+
+    .btn {
+        background-color: #009844;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+        margin: 2px;
+    }
+
+    .btn:hover {
+        background-color: #00C957;
+        border-style: none;
+    }
+
+    .btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+</style>

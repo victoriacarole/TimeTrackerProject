@@ -3,48 +3,48 @@
 @{
 }
 
+<div class="createTimecard">
+    <h1>Create New Timecard</h1>
 
-<form method="post">
-    <div class="row my-1">
-        <div class="col-3">
-            <label>Username:</label>
+    <form method="post">
+        <div class="row my-1">
+            <div class="col-3">
+                <label>Username:</label>
+            </div>
+            <div class="col-9">
+                <input id="txtName" type="text" class="form-control" />
+            </div>
         </div>
-        <div class="col-9">
-            <input id="txtName" type="text" class="form-control" />
+        <div class="row my-1">
+            <div class="col-3">
+                <label>Time In:</label>
+            </div>
+            <div class="col-9">
+                <input id="timein" value="" type="text" class="form-control " />
+            </div>
         </div>
-    </div>
-    <div class="row my-1">
-        <div class="col-3">
-            <label>Time In:</label>
+        <div class="row my-1">
+            <div class="col-3">
+                <label>Time Out:</label>
+            </div>
+            <div class="col-9">
+                <input id="timeout" value="" type="text" class="form-control" />
+            </div>
         </div>
-        <div class="col-9">
-            <input id="timein" value="" type="text" class="form-control " />
+        <div class="row my-1">
+            <div class="col-3">
+                <label>Comments:</label>
+            </div>
+            <div class="col-9">
+                <textarea style="height:100px;" class="form-control"></textarea>
+            </div>
         </div>
-    </div>
-    <div class="row my-1">
-        <div class="col-3">
-            <label>Time Out:</label>
-        </div>
-        <div class="col-9">
-            <input id="timeout" value="" type="text" class="form-control" />
-        </div>
-    </div>
-    <div class="row my-1">
-        <div class="col-3">
-            <label>Comments:</label>
-        </div>
-        <div class="col-9">
-            <textarea style="height:100px;" class="form-control"></textarea>
-        </div>
-    </div>
-</form>
-<br />
-<br />
+        
+        <button type="submit" id="btnAddTime" onclick="return validateInput()" value="Add Time" class="btn btn-primary">Add Time</button> <a onclick="goBack()" class="btn btn-primary" style="color:white;">Cancel</a>
 
-@*Placeholder buttons -- "Add Time" button needs to send form*@
+    </form>
+</div>
 
-<button type="submit" id="btnAddTime" onclick="return validateInput()" value="Add Time" class="btn btn-primary">Add Time</button>
-<a onclick="goBack()" class="btn btn-primary">Cancel</a>
 @section Scripts{
     <script>
 
@@ -76,3 +76,57 @@
 
     </script>
 }
+
+@* CSS *@
+<style>
+
+    header {
+        background: white;
+    }
+
+    footer {
+        background: black;
+        opacity: .7;
+    }
+
+    body {
+        /* background-color: #492365; */
+        background-image: url('../images/4703133.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    /* Specific to page */
+    .createTimecard {
+        /* center on page */
+        margin: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /* other adjustments */
+        padding: 30px;
+        background-color: white;
+    }
+
+    .btn {
+        background-color: #009844;
+        color: white;
+        font-weight: bold;
+        border-style: none;
+        margin: 2px;
+    }
+
+        .btn:hover {
+            background-color: #00C957;
+            border-style: none;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+</style>

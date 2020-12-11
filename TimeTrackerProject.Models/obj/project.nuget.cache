@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jzn/vORrlaeZQE6J4zC0b4RSrL3soTtAjrfv8dmLWBIi9m0JfNrUxLYq95AKXUPW+1w3uKSVOg3xPizO0TCcGw==",
+  "dgSpecHash": "xr6sz3Ny97gnMljSTHlI3TelvdgKcfuCC8vWvQhvvY1hTJ8P032dAi0aiRq0iwkGKJLSojU3MDMDGhLuQV7Sdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+  "projectFilePath": "C:\\Users\\ianbr\\Desktop\\TimeTracker\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
