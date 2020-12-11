@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TimeTrackerProject.InMemoryData;
+using TimeTrackerProject.Hubs;
 
 namespace TimeTrackerProject
 {
@@ -35,6 +36,7 @@ namespace TimeTrackerProject
             services.AddSingleton<ITimeCardData, InMemoryTimeCardData>();
 
             services.AddRazorPages();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +63,7 @@ namespace TimeTrackerProject
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHub<ChatHub>("/chathub");
             });
         }
     }

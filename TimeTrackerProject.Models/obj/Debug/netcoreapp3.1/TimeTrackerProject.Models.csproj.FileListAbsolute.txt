@@ -24,3 +24,12 @@ C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Deb
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csproj.CoreCompileInputs.cache
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
 C:\Users\joeys\Source\Repos\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.deps.json
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\bin\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csprojAssemblyReference.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfoInputs.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.AssemblyInfo.cs
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.dll
+C:\Users\ianbr\Desktop\TimeTrackerNew\TimeTrackerProject\TimeTrackerProject.Models\obj\Debug\netcoreapp3.1\TimeTrackerProject.Models.pdb

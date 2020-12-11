@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\joeys\\.nuget\\packages\\": {}
+    "C:\\Users\\ianbr\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+      "projectUniqueName": "C:\\Users\\ianbr\\Desktop\\TimeTrackerNew\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
       "projectName": "TimeTrackerProject.Models",
-      "projectPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
-      "packagesPath": "C:\\Users\\joeys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeys\\Source\\Repos\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
+      "projectPath": "C:\\Users\\ianbr\\Desktop\\TimeTrackerNew\\TimeTrackerProject\\TimeTrackerProject.Models\\TimeTrackerProject.Models.csproj",
+      "packagesPath": "C:\\Users\\ianbr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ianbr\\Desktop\\TimeTrackerNew\\TimeTrackerProject\\TimeTrackerProject.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\joeys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ianbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
