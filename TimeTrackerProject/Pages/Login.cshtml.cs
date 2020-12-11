@@ -18,6 +18,10 @@ namespace TimeTrackerProject.Pages
         {
         }
 
+        /// <summary>
+        /// Take username, return unique salt and hashed password
+        /// </summary>
+        /// <returns></returns>
         public IActionResult OnPostSalt()
         {
             //Set UserNames
@@ -27,10 +31,14 @@ namespace TimeTrackerProject.Pages
             UserStatus.UserSalt = sql.Validate(newUser.Name);
             UserStatus.UserHashed = sql.getHashed(newUser.Name);
 
-            //Call function to see if username is taken, return message verifying status of username
-            //checkUsername();
-
             return RedirectToPage("/Login");
+        }
+
+        public IActionResult OnPostTwo()
+        {
+            
+
+            return RedirectToPage("/Groups/Groups");
         }
     }
 }

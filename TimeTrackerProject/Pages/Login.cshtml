@@ -47,7 +47,7 @@
 
     <script type="text/javascript">
 
-        function getSalt(){
+        function getSalt() {
 
             $.ajax({
                 type: 'POST',
@@ -56,18 +56,22 @@
                 success: function (data) {
 
                     var uName = document.getElementById('UserName').value;
+                    var uPass = document.getElementById('Password').value;
 
                     $('#uName').val(uName);
                 },
-            //After AJAX is done, it runs again to get salt from database
+                //After AJAX is done, it runs again to get salt from database
             }).done(function () {
                 var uSalt = "@UserStatus.UserSalt";
-                var uHashed = "@UserStatus.UserHashed"
+                var uHashed = "@UserStatus.UserHashed";
+                var enteredHash = hash(uSalt, uPass)
             });
 
-             $.ajax({
+            if (uHashed == enteredHash) {
+
+                $.ajax({
                     type: 'POST',
-                    url: '/Register?handler=hash',
+                    url: '/Register',
                     data: $('#reg').serialize(),
                     success: function (data) {
 
@@ -83,7 +87,9 @@
                     $('#form2').submit();
                 });
 
-            return false;
+                return false;
+            }
+            S
         }
 
     //This function takes the salt generated in the server,
