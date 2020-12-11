@@ -31,6 +31,18 @@ namespace TimeTrackerProject
             return data.ExecuteNonQuery(sSQL);
         }
 
+        public int UpdateUserHours(int userID, int hours)
+        {
+            sSQL = "UPDATE dbUser SET userTotalHours = " + hours + " WHERE userID = " + userID;
+            return data.ExecuteNonQuery(sSQL);
+        }
+
+        public int UpdateGroupHours(int groupID, int hours)
+        {
+            sSQL = "UPDATE dbGroup SET GroupTotalHours = " + hours + " WHERE groupID = " + groupID;
+            return data.ExecuteNonQuery(sSQL);
+        }
+
         public List<clsUserTime> GetAllTimes()
         {
             DataSet AllUserTimes;
