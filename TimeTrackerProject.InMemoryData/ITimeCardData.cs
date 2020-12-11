@@ -66,13 +66,11 @@ namespace TimeTrackerProject.InMemoryData
         public IEnumerable<UserTime> GetAllByUserId(int UserId)
         {
             return from ut in UserTimes where ut.User.Id == UserId select ut;
-            //return UserTimes.FirstOrDefault(ut => ut.User.Id == UserId);
         }
 
         public IEnumerable<UserTime> GetAllByGroupId(int GroupId)
         {
             return from ut in UserTimes orderby ut.User.Id where ut.Group.Id == GroupId select ut;
-            //return UserTimes.FirstOrDefault(ut => ut.User.Id == UserId);
         }
         public UserTime GetById(int Id)
         {
